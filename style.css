@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(227, 225, 225);
+}
+
+.umumi {
+    width: 80%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    position: relative;
+
+
+}
+
+.ilk {
+    margin: 0 auto;
+    background: url(./image/andrea-cairone-53ark9ceU8A-unsplash.png);
+    background-size: cover;
+}
+
+
+
+
+.basHisse {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    height: 100px;
+
+}
+
+.divA {
+    justify-content: space-evenly;
+    margin-top: 30px;
+    display: flex;
+    gap: 35px;
+}
+
+.divA a {
+    color: white;
+}
+
+.divsekil {
+    width: 400px;
+    height: 40px;
+    display: flex;
+    gap: 45px;
+    margin-top: 20px;
+
+}
+
+.orta {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+    gap: 50px;
+    justify-content: center;
+    position: relative;
+}
+
+.orta h1 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+.orta p {
+    color: grey;
+    text-align: center;
+    position: absolute;
+    top: 290px;
+    left: 130px;
+}
+
+.sheki {
+
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+    gap: 50px;
+    justify-content: center;
+    position: relative;
+}
+
+.sheki h2 {
+    color: rgb(232, 139, 18);
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+
+.sheki p {
+    position: absolute;
+    color: white;
+    top: 270px;
+    left: 100px;
+}
+
+.haqqimizda {
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+
+}
+
+.haqHP {
+    display: block;
+    position: relative;
+}
+
+.haqHP h2 {
+    color: rgb(180, 133, 46);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.haqHP p {
+    color: black;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.haqHP h3 {
+
+    text-align: center;
+    padding-top: 8px;
+    color: rgb(203, 159, 76);
+    width: 130px;
+    height: 40px;
+    border: 2px solid rgb(146, 104, 26);
+    border-radius: 5px;
+    background-color: rgb(236, 218, 187);
+    margin-top: 40px;
+    position: absolute;
+    left: 130px;
+
+}
+
+.haqsek img {
+
+    width: 450px;
+    height: 500px;
+}
+
+.mehsullar {
+    display: block;
+    height: 770px;
+
+    position: relative;
+}
+
+.mehsullar h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(181, 149, 89);
+}
+
+.mehsullar img {
+    width: 100%;
+}
+
+.mehsullar h3 {
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.mehsullar p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mehsullar h4 {
+    text-align: center;
+    padding-top: 8px;
+    color: rgb(203, 159, 76);
+    width: 150px;
+    height: 40px;
+    border: 2px solid rgb(146, 104, 26);
+    border-radius: 5px;
+    background-color: rgb(236, 218, 187);
+    margin-top: 40px;
+    position: absolute;
+    left: 600px;
+}
+
+.serab {
+    width: 100%;
+    height: 500px;
+    background: url(./giff\ 1.png);
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.serab h2 {
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    color: white;
+    font-size: 40px;
+}
+
+.serab p {
+    color: white;
+    position: absolute;
+    top: 260px;
+    left: 60px;
+}
+
+.serab h4 {
+    text-align: center;
+    padding-top: 8px;
+    color: rgb(203, 159, 76);
+    width: 150px;
+    height: 40px;
+    border: 2px solid rgb(146, 104, 26);
+    border-radius: 5px;
+    background-color: rgb(236, 218, 187);
+    margin-top: 40px;
+    position: absolute;
+    top: 290px;
+    left: 60px;
+
+}
+
+.brendH2 {
+    text-align: center;
+    color: rgb(203, 159, 76);
+    font-size: 40px;
+    margin-bottom: 40px;
+
+}
+
+.brendler {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 50px;
+    position: relative;
+    background: url(./Group\ 98.png);
+
+}
+
+.AzSerab {
+    display: block;
+    width: 40%;
+    padding-top: 40px;
+}
+
+.AzSerab h3 {
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 40px;
+
+}
+
+.AzSerab h2 {
+    color: white;
+}
+
+.RusSerab {
+    display: block;
+
+    position: absolute;
+    right: 10px;
+    bottom: 40px;
+
+}
+
+.RusSerab h2 {
+    color: white;
+}
+
+.RusSerab h3 {
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+.xeberler {
+    width: 100%;
+
+
+}
+
+.xeberler h2 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: rgb(203, 159, 76);
+    text-align: center;
+}
+
+.xeberler img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.son1 {
+    margin-top: 50px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    background-color: rgb(194, 181, 164);
+
+}
+
+.son1 a {
+    color: black;
+    font-size: 20px;
+}
